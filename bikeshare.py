@@ -191,7 +191,6 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def display_data(df):
 
     print(df.head())
@@ -202,8 +201,6 @@ def display_data(df):
             return
         next = next + 5
         print(df.iloc[next:next+5])
-
-
 
 def main():
     while True:
@@ -224,7 +221,6 @@ def main():
         restart = input('\nWould you like to restart? Type yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
     main()
