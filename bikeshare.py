@@ -193,6 +193,7 @@ def user_stats(df, city):
 
 
 def display_data(df):
+# This function reads row data for user
 
     print(df.head())
     next = 0
